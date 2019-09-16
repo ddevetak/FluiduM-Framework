@@ -25,7 +25,7 @@ except:
     print('Didnt set number of files or jobs!')
     exit()
 
-WORKING_FOLDER = "/lustre/nyx/alice/users/ddevetak/ProbeRun"
+WORKING_FOLDER = "/lustre/nyx/alice/users/ddevetak/ProbeRun/RunGrid_Cent05"
 JobsFolder = "JOBS"
 
 if not os.path.exists(JobsFolder):
