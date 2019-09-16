@@ -4,10 +4,10 @@
 
 LaunchKernels[10]
 
-WORKING_FOLDER = "/lustre/nyx/alice/users/ddevetak/ProbeRun/"
+WORKINGFOLDER = "/lustre/nyx/alice/users/ddevetak/ProbeRun/"
 
-dataC = Import[StringJoin[WORKING_FOLDER, "RunGrid_Cent05/grid_10bins_27_08.dat"]]
-SetDirectory[StringJoin[WORKING_FOLDER, "FluiduM-newResList", "/Package"]]
+dataC = Import[StringJoin[WORKINGFOLDER, "RunGrid_Cent05/grid_10bins_27_08.dat"]]
+SetDirectory[StringJoin[WORKINGFOLDER, "FluiduM-newResList", "/Package"]]
 
 <<FluiduM`
 Off[FindRoot::lstol];
@@ -44,7 +44,7 @@ spectraValues = spectraResonanceDecays[particleDataset, pTList, #[[1]], #[[2]], 
 
 (***************** OUTPUT FILES & RUN MACROS ******************)
 
-PT = WORKING_FOLDER + "ALICE_DATA/fullPtRange.json"
+PT = WORKINGFOLDER + "ALICE_DATA/fullPtRange.json"
 
 Particles = {"pion/pi0139plu.json", "kaon/Ka0492plu.json", "proton/pr0938plu.json"}
 particleFolders = {"/pion/", "/kaon/", "/proton/", "/lambda/", "/xi/", "/omega/"}
@@ -52,7 +52,7 @@ particleFolders = {"/pion/", "/kaon/", "/proton/", "/lambda/", "/xi/", "/omega/"
 
 (* 1: pionPlus, 2: kaonPlus, 3: protonPlus, 4: lambdaZero, 5: xiMinus, 6: omegaMinus *)
 
-StoringFileFolder = Table[StringJoin[WORKING_FOLDER, "JOBS/", JobFolder, particleFolders[[i]]],{i,3}];
+StoringFileFolder = Table[StringJoin[WORKINGFOLDER, "JOBS/", JobFolder, particleFolders[[i]]],{i,3}];
 
 
 outputJsonHydro =     Table[StringJoin[StoringFileFolder[[i]], "spectra_", ToString[comb], ".json"], {i,3}, {comb, LineIndex1, LineIndex2} ];
