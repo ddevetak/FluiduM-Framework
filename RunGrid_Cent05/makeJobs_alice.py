@@ -25,6 +25,7 @@ except:
     print('Didnt set number of files or jobs!')
     exit()
 
+WORKING_FOLDER = "/lustre/nyx/alice/users/ddevetak/ProbeRun"
 JobsFolder = "JOBS"
 
 if not os.path.exists(JobsFolder):
@@ -46,10 +47,10 @@ for i in range(1, CorrectedNumberOfJobs+1):
    open(path.join(JobsFolder, "job-%d.sh" % i), "w").write(
 """#!/bin/bash
 
-(time nohup /cvmfs/theory.gsi.de/bin/math11 -u -script HYDRO.wl -- %s %s '%s') >  /lustre/nyx/alice/users/ddevetak/FluiduM/ALICE/TRENTO/parralel_batch/0-5/JOBS/%s.out 2>&1 &
+(time nohup /cvmfs/theory.gsi.de/bin/math11 -u -script HYDRO.wl -- %s %s '%s') >  %s/JOBS/%s.out 2>&1 &
 
 
-""" % (min_index, max_index, job_folder, job_folder)
+""" % (min_index, max_index, job_folder, WORKING_FOLDER, job_folder)
 
     )
 
