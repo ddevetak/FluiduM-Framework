@@ -1,2 +1,2 @@
 # FluiduM-Framework
-Mathematica and uproot scripts for producing FluiduM spectra results
+Mathematica and pyroot scripts for producing FluiduM spectra results
