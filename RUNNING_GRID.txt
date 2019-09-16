@@ -1,0 +1,10 @@
+###############################################################
+# INSTRUCTIONS FOR RUNNING THE FLUIDUM GRID CALCULATION
+###############################################################
+
+
+1.) For the best and most predictable performance log in to the gsi-alice machine
+       command: ssh -X -A -t ddevetak@lx-pool.gsi.de ssh -X lxir128
+       
+2.) Download ALICE DATA and files:       
+       command: 
