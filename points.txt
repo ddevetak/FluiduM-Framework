@@ -1,0 +1,37 @@
+###########################
+# POINTS
+###########################
+
+1.)
+
+A Repository as documented on GitHub:
+
+A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
+
+A Project as documented on GitHub:
+
+Project boards on GitHub help you organize and prioritize your work. You can create project boards for specific feature work, comprehensive roadmaps, or even release checklists. With project boards, you have the flexibility to create customized workflows that suit your needs.
+
+
+2.)  Changing repository name:
+
+under url name link go to under bar with "settings"
+
+
+3.)  Creating new folder in repository
+
+     https://github.com/KirstieJane/STEMMRoleModels/wiki/Creating-new-folders-in-GitHub-repository-via-the-browser
+
+
+
+4.) from local git hub repository add folder
+
+****  git add .
+****  git commit -m "what"
+****  from git Desktop push button
+
+
+
+5.) download single folder: https://github.com/ddevetak/FluiduM-Framework/trunk/ALICE_DATA
+   
+    "trunk" instead of tree/master
