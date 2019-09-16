@@ -6,7 +6,7 @@ LaunchKernels[10]
 
 WORKING_FOLDER = "/lustre/nyx/alice/users/ddevetak/ProbeRun/"
 
-dataC = Import["/lustre/nyx/alice/users/ddevetak/FluiduM/ALICE/TRENTO/parralel_batch/grid_10bins_27_08.dat"]
+dataC = Import[StringJoin[WORKING_FOLDER, "grid_10bins_27_08.dat"]]
 SetDirectory[StringJoin[WORKING_FOLDER, "FluiduM-newResList", "/Package"]]
 
 <<FluiduM`
