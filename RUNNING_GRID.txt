@@ -23,5 +23,9 @@
     
     
     
-5.) 
+5.) Now we can run.....Produce jobs:
+
+    command: python22 makeJobs_alice.py 10 1 1.  (10 -combinations for 1 job)
+    command: source source.sh
+    command: source run.sh
        
