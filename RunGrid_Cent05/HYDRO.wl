@@ -52,7 +52,7 @@ particleFolders = {"/pion/", "/kaon/", "/proton/", "/lambda/", "/xi/", "/omega/"
 
 (* 1: pionPlus, 2: kaonPlus, 3: protonPlus, 4: lambdaZero, 5: xiMinus, 6: omegaMinus *)
 
-StoringFileFolder = Table[StringJoin[WORKINGFOLDER, "JOBS/", JobFolder, particleFolders[[i]]],{i,3}];
+StoringFileFolder = Table[StringJoin[WORKINGFOLDER, "RunGrid_Cent05/JOBS/", JobFolder, particleFolders[[i]]],{i,3}];
 
 
 outputJsonHydro =     Table[StringJoin[StoringFileFolder[[i]], "spectra_", ToString[comb], ".json"], {i,3}, {comb, LineIndex1, LineIndex2} ];
