@@ -1,0 +1,2191 @@
+  Iter  Cycle  Action             Objective value      Time      Gap
+  ----  -----  ------             ---------------      ----      ---
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [45.18457923 66.3988677  75.14828845 43.08244731 35.01234985]
+
+                                                                -18
+InterpolatingFunction::dmval: Input value {136.9, 0., 6.93889 10   } lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0800624} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.156311} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1446.1, 1785.84, 1585.55, 663.178, 373.602]
+CHI2 =  420.6127396083289
+########################
+
+
+
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [87.76010659 30.52795366 52.89131644 82.82570169 59.14562152]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0867527} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.177894} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2723.08, 849.781, 1133.34, 1240.95, 619.071]
+CHI2 =  707.6578708513208
+########################
+
+
+
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [58.21524838 79.42470773 34.59659021 56.71355215 89.29826114]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0824671} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.164644} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1841.79, 2118.5, 754.783, 863.379, 919.576]
+CHI2 =  748.0541583243917
+########################
+
+
+
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [60. 60. 60. 60. 60.]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0827575} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.165615} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1895.62, 1621.19, 1278.64, 911.299, 627.67]
+CHI2 =  39.33240275363224
+########################
+
+
+
+     0      0  Initialization          420.612740    278.62   100.00  
+     0      0  Initialization          707.657871    278.62   100.00  
+     0      0  Initialization          748.054158    278.62   100.00  
+     0      0  Initialization           39.332403    278.62   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [30.07341973 30.41363147 89.01411748 88.23594818 89.77339494]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0756915} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.143171} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [980.113, 846.736, 1863.58, 1318.35, 924.267]
+CHI2 =  1740.5405232709747
+########################
+
+
+
+     0      0  GlobalStep             1740.540523    338.62   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [89.48154413 30.54030264 89.92970148 30.03467454 89.63759372]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.086901} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.178537} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2773.84, 850.109, 1881.85, 468.892, 922.926]
+CHI2 =  1443.9396171689305
+########################
+
+
+
+     1      0  GlobalStep             1443.939617    397.77   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [89.57833271 89.98924402 89.67659277 89.19689563 32.26541479]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0869091} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.178573} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2776.7, 2386.04, 1876.8, 1332.07, 345.282]
+CHI2 =  1077.575267174043
+########################
+
+
+
+     2      0  GlobalStep             1077.575267    458.86   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [58.14933237 51.04578157 50.40966196 50.13652194 50.12268211]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0824565} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.164607} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1839.8, 1389.28, 1082.4, 767.09, 527.913]
+CHI2 =  160.81969415877342
+########################
+
+
+
+     3      0  GlobalStep              160.819694    518.77   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [60.60980151 64.30524152 52.68588232 60.85683384 51.88120182]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0828576} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.165937} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1913.99, 1732.06, 1129.13, 923.772, 545.732]
+CHI2 =  51.55445072712048
+########################
+
+
+
+     4      0  GlobalStep               51.554451    577.12   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [60.28428253 61.04567681 57.78812924 59.76094782 57.33640559]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0828041} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.165765} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1904.18, 1648.16, 1233.53, 907.817, 600.844]
+CHI2 =  32.15910639195148
+########################
+
+
+
+     5      0  LocalStep                32.159106    638.00   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [89.64777807 89.59413964 30.71415389 31.0144696  30.80656834]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0869149} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.178599} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2778.74, 2376.07, 673.408, 483.592, 330.202]
+CHI2 =  1103.600482986671
+########################
+
+
+
+     6      1  GlobalStep             1103.600483    699.21   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [44.05363639 50.56673638 57.37827442 67.32733637 38.8444599 ]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0797708} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.155484} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1411.52, 1376.82, 1225.16, 1017.7, 412.96]
+CHI2 =  342.4564897602179
+########################
+
+
+
+     7      1  GlobalStep              342.456490    759.18   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [60.06155193 77.84805088 65.20453727 59.56445457 55.08274446]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0827676} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.165647} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1897.47, 2078.4, 1384.49, 904.955, 578.105]
+CHI2 =  55.48518066996177
+########################
+
+
+
+     8      1  GlobalStep               55.485181    820.41   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [60.69573119 69.19127205 62.08808659 58.3853906  56.62661635]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0828718} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.165982} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1916.58, 1857.43, 1321.16, 887.771, 593.687]
+CHI2 =  17.93852185516678
+########################
+
+
+
+     9      1  GlobalStep               17.938522    886.46   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [58.31306347 67.38707562 59.66884061 59.1784183  55.86475971]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0824829} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.164698} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1844.75, 1811.19, 1271.89, 899.331, 586.0]
+CHI2 =  28.13173212187587
+########################
+
+
+
+    10      1  GlobalStep               28.131732    945.75   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [61.25818125 68.83518086 61.71165342 58.84224877 56.21227071]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0829645} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.166274} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1933.51, 1848.31, 1313.5, 894.432, 589.507]
+CHI2 =  15.146309966589161
+########################
+
+
+
+    11      1  LocalStep                15.146310   1004.24   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [89.7072438  56.1470296  65.47340795 54.25155757 42.04828075]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0869198} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.178621} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2780.5, 1521.63, 1389.94, 827.397, 445.743]
+CHI2 =  207.72685013533277
+########################
+
+
+
+    12      2  GlobalStep              207.726850   1063.85   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [77.90100699 62.34812981 61.82532411 66.92976891 50.34211748]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0856077} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.173951} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2431.17, 1681.71, 1315.81, 1011.94, 530.138]
+CHI2 =  67.21541743737916
+########################
+
+
+
+    13      2  GlobalStep               67.215417   1124.23   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [71.63147809 57.92420372 66.89688157 50.47022358 50.06261793]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0846728} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.171213} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2244.46, 1567.59, 1418.81, 771.988, 527.304]
+CHI2 =  57.26346771724176
+########################
+
+
+
+    14      2  GlobalStep               57.263468   1236.37   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [69.94979034 62.97214257 62.83295961 59.03493918 52.86647453]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0844033} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.170446} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2194.23, 1697.77, 1336.31, 897.24, 555.703]
+CHI2 =  4.973802483625425
+########################
+
+
+
+    15      2  GlobalStep                4.973802   1323.10   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [65.26862434 64.49680935 62.04770636 58.91724539 53.22445961]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0836312} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.168243} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2054.04, 1736.99, 1320.34, 895.525, 559.324]
+CHI2 =  3.608978759623717
+########################
+
+
+
+    16      2  GlobalStep                3.608979   1384.80   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.56931564 63.65837209 61.73795667 58.9575584  52.63293983]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840134} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169334} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2123.0, 1715.43, 1314.04, 896.112, 553.34]
+CHI2 =  3.2907731478345172
+########################
+
+
+
+    17      2  LocalStep                 3.290773   1470.25   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.25219167 63.98032683 62.4396982  60.39879266 50.48275179]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0839609} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169183} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2113.5, 1723.71, 1328.31, 917.105, 531.564]
+CHI2 =  9.678208044657534
+########################
+
+
+
+    18      2  RefinementStep            9.678208   1531.14   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.29388007 62.64639882 61.33749892 59.5067344  53.16900584]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0839678} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169203} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2114.75, 1689.39, 1305.88, 904.114, 558.764]
+CHI2 =  4.947487552246585
+########################
+
+
+
+    19      2  RefinementStep            4.947488   1588.54   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.466622   63.41888881 61.74752294 58.34912075 52.47758727]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0839964} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169285} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2119.93, 1709.27, 1314.23, 887.243, 551.769]
+CHI2 =  3.468434565004059
+########################
+
+
+
+    20      2  RefinementStep            3.468435   1653.49   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.65713311 63.8566934  61.52901184 58.85448925 52.75233704]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840279} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169375} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2125.63, 1720.53, 1309.78, 894.61, 554.549]
+CHI2 =  2.875577263674473
+########################
+
+
+
+    21      2  RefinementStep            2.875577   1714.85   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.70304518 64.09580203 61.35534588 58.84023069 52.59129014]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840355} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169397} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2127.01, 1726.68, 1306.25, 894.402, 552.919]
+CHI2 =  2.9105227798853894
+########################
+
+
+
+    22      2  RefinementStep            2.910523   1771.32   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [83.04566351 78.91240609 72.6788083  44.70230994 69.42897793]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0862614} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.176062} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2583.75, 2105.47, 1535.75, 687.103, 722.218]
+CHI2 =  283.84540738278594
+########################
+
+
+
+    23      3  GlobalStep              283.845407   1832.79   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [79.43146472 79.39429283 59.07905997 57.95133976 60.9066976 ]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0858142} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.174591} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2476.62, 2117.72, 1259.87, 881.442, 636.79]
+CHI2 =  94.41081470653941
+########################
+
+
+
+    24      3  GlobalStep               94.410815   1891.87   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [71.61840811 73.45715266 68.71637475 49.08060583 57.27173245]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0846707} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.171207} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2244.07, 1966.5, 1455.66, 751.579, 600.192]
+CHI2 =  66.06668456586928
+########################
+
+
+
+    25      3  GlobalStep               66.066685   1951.07   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.96402916 69.43990034 62.99725341 58.26170382 57.209365  ]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0842428} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169989} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2164.75, 1863.8, 1339.65, 885.968, 599.564]
+CHI2 =  5.871445947531663
+########################
+
+
+
+    26      3  GlobalStep                5.871446   2012.58   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.76320311 66.16128079 61.39287136 57.53148511 55.19118597]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0842099} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169895} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2158.74, 1779.74, 1307.01, 875.317, 579.2]
+CHI2 =  0.5147256402053539
+########################
+
+
+
+    27      3  GlobalStep                0.514726   2071.11   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.86758079 65.71104292 62.24638471 58.4403829  55.0511377 ]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840626} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169475} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2131.93, 1768.18, 1324.38, 888.573, 577.786]
+CHI2 =  0.22648984608906175
+########################
+
+
+
+    28      3  LocalStep                 0.226490   2132.35   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [88.73783689 30.01829253 30.43532257 30.02447191 89.64147627]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0868391} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.178261} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2751.92, 836.202, 667.547, 468.739, 922.964]
+CHI2 =  1540.7573211898691
+########################
+
+
+
+    29      4  GlobalStep             1540.757321   2193.34   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [89.67582189 31.62909545 89.84290929 89.63813674 89.67309542]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0869172} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.178609} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2779.57, 879.083, 1880.12, 1338.37, 923.277]
+CHI2 =  1500.8842280857584
+########################
+
+
+
+    30      4  GlobalStep             1500.884228   2254.30   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [31.13071279 30.18414517 89.47163148 87.07885006 30.21142799]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0760156} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.144311} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1013.02, 840.622, 1872.71, 1301.82, 324.041]
+CHI2 =  1493.006981192606
+########################
+
+
+
+    31      4  GlobalStep             1493.006981   2315.53   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.62547823 64.79340382 60.79257796 57.53547025 54.09007799]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840227} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.16936} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2124.68, 1744.61, 1294.79, 875.375, 568.076]
+CHI2 =  1.1734557607172678
+########################
+
+
+
+    32      4  GlobalStep                1.173456   2378.37   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.06786123 65.54679922 61.6189761  58.00754105 54.89069499]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840957} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169569} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2137.93, 1763.96, 1311.61, 882.261, 576.165]
+CHI2 =  0.18335028208445325
+########################
+
+
+
+    33      4  GlobalStep                0.183350   2438.39   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.08196677 65.87200188 61.85737361 58.09355996 55.03045949]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.084098} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169576} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2138.35, 1772.31, 1316.47, 883.516, 577.577]
+CHI2 =  0.11620096231968595
+########################
+
+
+
+    34      4  LocalStep                 0.116201   2504.21   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [30.20859889 30.14072511 31.19800179 30.47685888 31.46601445]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0757336} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.143319} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [984.323, 839.465, 683.573, 475.528, 337.022]
+CHI2 =  1551.7734143577934
+########################
+
+
+
+    35      5  GlobalStep             1551.773414   2562.00   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [89.03380653 87.62072982 41.21710396 32.1624519  89.89361079]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0868637} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.178371} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2760.65, 2326.23, 892.628, 500.79, 925.453]
+CHI2 =  1080.9191777631572
+########################
+
+
+
+    36      5  GlobalStep             1080.919178   2622.34   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [89.87116256 50.34913906 54.03460968 59.39195477 89.9567689 ]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0869335} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.178681} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2785.33, 1371.16, 1156.77, 902.442, 926.077]
+CHI2 =  635.2225360746814
+########################
+
+
+
+    37      5  GlobalStep              635.222536   2680.27   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [66.46417853 66.64572328 61.68910219 58.03575156 55.57284789]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0838302} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.168807} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2089.89, 1792.17, 1313.04, 882.673, 583.054]
+CHI2 =  1.1528040770406736
+########################
+
+
+
+    38      5  GlobalStep                1.152804   2739.93   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.90238886 66.29251387 61.91750061 58.40239061 55.30960362]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840684} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169491} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2132.98, 1783.11, 1317.69, 888.019, 580.396]
+CHI2 =  0.3245988175540504
+########################
+
+
+
+    39      5  GlobalStep                0.324599   2801.67   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.09274896 65.81367122 61.92488514 58.03338821 54.95406238]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840998} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169581} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2138.68, 1770.82, 1317.84, 882.638, 576.805]
+CHI2 =  0.08075005934265961
+########################
+
+
+
+    40      5  LocalStep                 0.080750   2860.97   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.2608736  65.91001928 61.86907082 58.25866158 54.67354192]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0841274} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.16966} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2143.71, 1773.29, 1316.7, 885.923, 573.972]
+CHI2 =  0.09207301241288204
+########################
+
+
+
+    41      5  RefinementStep            0.092073   2922.13   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.27159367 65.78197623 61.99245738 57.99081585 55.01025452]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0841292} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169665} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2144.03, 1770.0, 1319.21, 882.017, 577.373]
+CHI2 =  0.101420017161089
+########################
+
+
+
+    42      5  RefinementStep            0.101420   2985.19   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.07187322 65.86770616 61.95061039 57.96640719 54.90793564]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840963} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169571} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2138.05, 1772.2, 1318.36, 881.661, 576.339]
+CHI2 =  0.05590099969781625
+########################
+
+
+
+    43      5  RefinementStep            0.055901   3048.92   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.02559952 65.87403007 62.03389015 57.95967023 54.86960365]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840887} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169549} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2136.67, 1772.37, 1320.06, 881.563, 575.952]
+CHI2 =  0.038497580112775015
+########################
+
+
+
+    44      5  RefinementStep            0.038498   3111.50   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.99135044 65.85385075 62.04113906 57.89470769 54.80047616]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840831} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169533} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2135.64, 1771.85, 1320.2, 880.616, 575.254]
+CHI2 =  0.02690231840975707
+########################
+
+
+
+    45      5  RefinementStep            0.026902   3172.03   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [89.98858791 30.87938744 30.00471977 42.37532529 30.13038986]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0869433} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.178724} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2788.79, 859.138, 658.491, 652.722, 323.202]
+CHI2 =  1116.0353734068563
+########################
+
+
+
+    46      6  GlobalStep             1116.035373   3231.73   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [30.24798332 30.97805003 30.03660495 68.54969206 30.17912166]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0757458} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.143362} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [985.549, 861.764, 659.162, 1035.4, 323.707]
+CHI2 =  1315.872569722949
+########################
+
+
+
+    47      6  GlobalStep             1315.872570   3293.93   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [30.78171604 30.25287123 63.50502124 45.02445505 30.15543528]
+
+                                                                -18
+InterpolatingFunction::dmval: Input value {136.9, 0., 6.93889 10   } lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0759095} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.143939} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1002.16, 842.453, 1349.97, 691.857, 323.461]
+CHI2 =  981.8537259944226
+########################
+
+
+
+    48      6  GlobalStep              981.853726   3353.62   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [66.7795414  66.46184183 62.3216044  57.88513665 54.12876827]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0838826} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.168958} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2099.34, 1787.46, 1325.91, 880.476, 568.467]
+CHI2 =  0.5403241943953381
+########################
+
+
+
+    49      6  GlobalStep                0.540324   3413.36   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.93500655 65.83646422 62.21185834 58.05437623 55.18567189]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840738} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169507} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2133.95, 1771.4, 1323.68, 882.944, 579.144]
+CHI2 =  0.14904588937136493
+########################
+
+
+
+    50      6  GlobalStep                0.149046   3474.60   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.88545705 65.91823079 62.04120983 57.94980279 54.59692452]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840656} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169483} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2132.47, 1773.5, 1320.21, 881.419, 573.198]
+CHI2 =  0.01219309324923462
+########################
+
+
+
+    51      6  LocalStep                 0.012193   3541.89   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [32.18510849 86.81861534 89.44553679 85.72053137 30.28054591]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0763327} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.145408} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1045.78, 2305.95, 1872.19, 1282.4, 324.757]
+CHI2 =  1214.498632809981
+########################
+
+
+
+    52      7  GlobalStep             1214.498633   3606.03   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [38.84822845 82.05942782 31.29621653 32.93310012 30.14738433]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0783064} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.15145} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1251.76, 2185.4, 685.636, 512.32, 323.378]
+CHI2 =  1093.30087529895
+########################
+
+
+
+    53      7  GlobalStep             1093.300875   3669.32   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [89.94436024 85.97987379 89.8473247  66.59624557 89.81264573]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0869396} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.178708} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2787.48, 2284.73, 1880.21, 1007.11, 924.654]
+CHI2 =  931.0477617333107
+########################
+
+
+
+    54      7  GlobalStep              931.047762   3755.82   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.19365743 66.41769194 62.91076116 58.13953709 54.59985249]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0841164} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169628} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2141.7, 1786.32, 1337.89, 884.186, 573.227]
+CHI2 =  0.27164586171186494
+########################
+
+
+
+    55      7  GlobalStep                0.271646   3826.87   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.85795729 66.14354745 62.52892868 58.18355318 54.57927046]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840611} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.16947} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2131.65, 1779.29, 1330.13, 884.828, 573.019]
+CHI2 =  0.0954364550358029
+########################
+
+
+
+    56      7  GlobalStep                0.095436   3888.10   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.99832788 65.95912489 62.10782097 57.92030216 54.6089732 ]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840842} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169536} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2135.85, 1774.55, 1321.56, 880.989, 573.319]
+CHI2 =  0.0017813435266794224
+########################
+
+
+
+    57      7  LocalStep                 0.001781   3953.67   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [41.68574571 30.23388981 30.12269493 87.00963311 89.12009286]
+
+                                                                 -18
+InterpolatingFunction::dmval: Input value {136.9, 0., -6.93889 10   } lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0791244} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.153694} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1338.96, 841.947, 660.972, 1300.83, 917.816]
+CHI2 =  1617.816607338635
+########################
+
+
+
+    58      8  GlobalStep             1617.816607   4017.77   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.39832896 62.74147869 30.04003586 37.61283354 30.15433115]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.08415} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169725} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2147.82, 1691.84, 659.234, 582.095, 323.45]
+CHI2 =  748.116456042327
+########################
+
+
+
+    59      8  GlobalStep              748.116456   4084.27   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [31.47812682 56.10151729 47.99000022 43.48991427 30.09531248]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0761206} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.144676} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1023.82, 1520.45, 1032.61, 669.2, 322.839]
+CHI2 =  748.2262304961171
+########################
+
+
+
+    60      8  GlobalStep              748.226230   4144.80   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [69.01991871 65.98910414 62.32377237 57.61750969 54.37657625]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0842519} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.170015} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2166.42, 1775.32, 1325.95, 876.572, 570.971]
+CHI2 =  0.3072138225716663
+########################
+
+
+
+    61      8  GlobalStep                0.307214   4214.42   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.22787276 65.73321786 62.26450434 57.86618284 54.7042915 ]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.084122} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169644} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2142.72, 1768.75, 1324.75, 880.199, 574.282]
+CHI2 =  0.040570414161691645
+########################
+
+
+
+    62      8  GlobalStep                0.040570   4275.34   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.07661288 65.98349831 62.11919451 57.88150867 54.56128113]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840971} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169573} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2138.19, 1775.18, 1321.79, 880.423, 572.837]
+CHI2 =  0.0011902279230740728
+########################
+
+
+
+    63      8  LocalStep                 0.001190   4364.59   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.98205572 66.11251403 62.2461855  57.7776697  54.57920293]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840815} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169529} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2135.36, 1778.49, 1324.38, 878.908, 573.019]
+CHI2 =  0.014316581796132426
+########################
+
+
+
+    64      8  RefinementStep            0.014317   4454.44   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.08207164 65.91385923 62.20048768 57.90840154 54.52977032]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.084098} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169576} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2138.36, 1773.39, 1323.45, 880.815, 572.519]
+CHI2 =  0.005482903847974495
+########################
+
+
+
+    65      8  RefinementStep            0.005483   4523.61   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.09230949 66.01364989 62.12048753 57.92777675 54.56304905]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840997} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169581} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2138.66, 1775.95, 1321.82, 881.098, 572.855]
+CHI2 =  0.0010923381282560412
+########################
+
+
+
+    66      8  RefinementStep            0.001092   4581.52   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.09268258 65.97826387 62.11484021 57.87905931 54.58396735]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840998} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169581} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2138.67, 1775.04, 1321.7, 880.387, 573.067]
+CHI2 =  0.0016028343377374272
+########################
+
+
+
+    67      8  RefinementStep            0.001603   4642.46   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.07315887 65.99281479 62.12711246 57.87637029 54.56558122]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840965} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169572} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2138.09, 1775.42, 1321.95, 880.348, 572.881]
+CHI2 =  0.0009958914110164464
+########################
+
+
+
+    68      8  RefinementStep            0.000996   4702.07   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [30.16609792 89.41138291 89.94651516 31.3515205  88.629287  ]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0757205} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.143273} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [982.999, 2371.46, 1882.19, 488.644, 912.969]
+CHI2 =  1463.4267662175391
+########################
+
+
+
+    69      9  GlobalStep             1463.426766   4768.44   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [30.13454116 89.35980091 30.00565025 67.21137483 57.15675716]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0757107} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.143238} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [982.017, 2370.15, 658.511, 1016.02, 599.033]
+CHI2 =  912.6672882764824
+########################
+
+
+
+    70      9  GlobalStep              912.667288   4826.95   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [89.83782276 89.82901288 89.85774524 31.61496105 31.61099859]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0869307} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.178669} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2784.34, 2382.0, 1880.42, 492.591, 338.521]
+CHI2 =  991.6928225685184
+########################
+
+
+
+    71      9  GlobalStep              991.692823   4899.19   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.71443079 66.48641814 61.94825047 57.96450531 54.16338062]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840374} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169402} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2127.35, 1788.09, 1318.31, 881.634, 568.817]
+CHI2 =  0.1577763906493569
+########################
+
+
+
+    72      9  GlobalStep                0.157776   4959.49   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.16768725 66.23407736 61.87972538 57.85231716 54.59144376]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0841121} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169616} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2140.92, 1781.61, 1316.92, 879.997, 573.142]
+CHI2 =  0.03982479621486842
+########################
+
+
+
+    73      9  GlobalStep                0.039825   5024.37   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.03639327 66.00974097 62.12254355 57.90788189 54.57877672]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840905} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169554} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2136.99, 1775.85, 1321.86, 880.808, 573.014]
+CHI2 =  8.112863497575141e-05
+########################
+
+
+
+    74      9  LocalStep                 0.000081   5094.68   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [30.13962354 32.46275821 32.98191409 30.23342879 89.92009091]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0757123} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.143244} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [982.175, 901.237, 720.992, 471.875, 925.715]
+CHI2 =  1715.1346147417498
+########################
+
+
+
+    75     10  GlobalStep             1715.134615   5181.51   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [30.01677129 89.9970284  87.96864714 54.8088013  50.37247423]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0756712} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.143109} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [978.348, 2386.24, 1842.71, 835.548, 530.446]
+CHI2 =  756.5483255726864
+########################
+
+
+
+    76     10  GlobalStep              756.548326   5242.65   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [33.69546224 89.98398262 58.51503645 62.7430839  30.8505772 ]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0767819} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.146912} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1092.63, 2385.91, 1248.36, 951.201, 330.657]
+CHI2 =  668.862049603483
+########################
+
+
+
+    77     10  GlobalStep              668.862050   5310.76   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.37488484 66.09972695 62.25258451 57.55303881 54.32926148]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0841462} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169714} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2147.12, 1778.16, 1324.51, 875.631, 570.493]
+CHI2 =  0.10934013976524566
+########################
+
+
+
+    78     10  GlobalStep                0.109340   5376.25   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.28933163 65.99384907 62.41348466 57.72095642 54.63873655]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0841321} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169673} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2144.56, 1775.44, 1327.78, 878.081, 573.62]
+CHI2 =  0.05765423796121241
+########################
+
+
+
+    79     10  GlobalStep                0.057654   5467.85   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.07071889 65.48905672 62.08295902 57.80502124 54.59506678]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840961} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169571} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2138.02, 1762.48, 1321.06, 879.307, 573.179]
+CHI2 =  0.07508582880786054
+########################
+
+
+
+    80     10  AdjLocalStep              0.075086   5530.51   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [30.06624562 39.48277634 85.66101025 38.64871539 75.74127222]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.075689} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.143163} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [979.889, 1086.82, 1796.58, 597.488, 785.177]
+CHI2 =  1055.0203115458187
+########################
+
+
+
+    81     11  GlobalStep             1055.020312   5596.47   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [89.26783845 56.44333652 30.54278069 50.29816016 60.23379111]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0868832} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.178458} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2767.54, 1529.3, 669.806, 769.462, 630.022]
+CHI2 =  520.1461878114524
+########################
+
+
+
+    82     11  GlobalStep              520.146188   5662.93   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [89.20428634 89.83120773 85.42469521 62.68493226 49.79908682]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0868779} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.178435} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2765.67, 2382.05, 1791.86, 950.355, 524.632]
+CHI2 =  450.3513451226727
+########################
+
+
+
+    83     11  GlobalStep              450.351345   5724.59   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.31683145 65.69492578 62.52260053 57.79311368 54.53483582]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0839716} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169214} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2115.44, 1767.77, 1330.0, 879.134, 572.57]
+CHI2 =  0.21605032609379882
+########################
+
+
+
+    84     11  GlobalStep                0.216050   5789.77   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.94600441 65.68124669 61.47978142 57.68791761 54.53166251]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840756} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169512} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2134.28, 1767.42, 1308.78, 877.599, 572.538]
+CHI2 =  0.19723682933711656
+########################
+
+
+
+    85     11  GlobalStep                0.197237   5854.39   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.00124125 65.79129662 62.33757788 57.76983936 55.02351379]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840847} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169538} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2135.94, 1770.24, 1326.23, 878.794, 577.507]
+CHI2 =  0.10279635767568779
+########################
+
+
+
+    86     11  AdjLocalStep              0.102796   5917.17   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.02449023 66.04613109 62.08329024 57.89096016 54.57367158]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840885} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169549} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2136.63, 1776.78, 1321.06, 880.561, 572.963]
+CHI2 =  0.0014014059820184768
+########################
+
+
+
+    87     11  RefinementStep            0.001401   5970.96   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.02095557 66.00539386 62.14467141 57.91688846 54.58012127]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840879} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169547} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2136.53, 1775.74, 1322.31, 880.939, 573.028]
+CHI2 =  0.00016160831008783246
+########################
+
+
+
+    88     11  RefinementStep            0.000162   6032.23   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.03810694 66.00741413 62.12172421 57.90855224 54.5928471 ]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840908} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169555} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2137.04, 1775.79, 1321.84, 880.818, 573.156]
+CHI2 =  0.00012211503745883617
+########################
+
+
+
+    89     11  RefinementStep            0.000122   6112.13   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.03198485 66.01465679 62.11995187 57.90675491 54.57930159]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840898} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169552} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2136.86, 1775.98, 1321.81, 880.791, 573.02]
+CHI2 =  0.00010797893634746293
+########################
+
+
+
+    90     11  RefinementStep            0.000108   6170.08   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.03498606 66.00741937 62.12050696 57.90895851 54.57823958]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840903} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169554} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2136.95, 1775.79, 1321.82, 880.823, 573.009]
+CHI2 =  0.00011230431571239193
+########################
+
+
+
+    91     11  RefinementStep            0.000112   6229.39   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.03710923 66.01051527 62.1224884  57.90933418 54.57864621]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840906} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169555} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2137.01, 1775.87, 1321.86, 880.829, 573.013]
+CHI2 =  7.807725265996083e-05
+########################
+
+
+
+    92     11  RefinementStep            0.000078   6284.01   100.00 *
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [89.74147658 89.92112126 30.14210657 89.94661828 30.77641899]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0869227} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.178633} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2781.5, 2384.32, 661.381, 1342.77, 329.89]
+CHI2 =  1227.8928268601626
+########################
+
+
+
+    93     12  GlobalStep             1227.892827   6340.62   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [31.05290385 66.7324308  53.59625371 30.01800678 70.70648978]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.075992} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.144228} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [1010.6, 1794.4, 1147.79, 468.642, 734.981]
+CHI2 =  801.3116013198472
+########################
+
+
+
+    94     12  GlobalStep              801.311601   6396.44   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [89.81680449 70.92573862 37.3341179  89.6464536  69.96196994]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.086929} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.178661} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2783.72, 1901.82, 811.913, 1338.49, 727.544]
+CHI2 =  820.5085041229395
+########################
+
+
+
+    95     12  GlobalStep              820.508504   6449.68   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.4444591  66.33278395 62.07239107 57.26469615 55.08807358]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0839928} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169275} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2119.26, 1784.14, 1320.84, 871.424, 578.159]
+CHI2 =  0.3752166801267837
+########################
+
+
+
+    96     12  GlobalStep                0.375217   6507.59   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [67.94418122 65.72735724 62.54208871 57.54420871 54.37131951]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840753} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169511} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2134.23, 1768.6, 1330.39, 875.502, 570.918]
+CHI2 =  0.14877469323247525
+########################
+
+
+
+    97     12  GlobalStep                0.148775   6562.50   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.02423062 66.14143874 62.16914809 57.01094307 54.46848087]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840885} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169549} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2136.62, 1779.23, 1322.81, 867.72, 571.9]
+CHI2 =  0.3365720190881902
+########################
+
+
+
+    98     12  AdjLocalStep              0.336572   6618.83   100.00  
+#################
+
+running Hydro for Alg input.....
+
+INPUT =  [68.04025914 66.01189418 62.12421685 57.90783131 54.57752571]
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.0840911} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+InterpolatingFunction::dmval: Input value {136.9, 0., 0.169556} lies outside the range of data in the interpolating function. Extrapolation will be used.
+
+General::stop: Further output of InterpolatingFunction::dmval will be suppressed during this calculation.
+AliceYields =  [2137.069, 1776.0008, 1322.1376000000002, 880.8240000000002, 573.0592]
+HydroYields =  [2137.1, 1775.91, 1321.89, 880.807, 573.002]
+CHI2 =  6.55018214763235e-05
+########################
+
+
+
+    99     12  RefinementStep            0.000066   6677.71   100.00 *
+Summary: iters 100 evals 104 noisy_evals   0 cycles  12 opt_time 6677.71 tot_time 6677.71 obj         0.000066 gap 100.00
+final =  6.55018214763235e-05 [68.04025914 66.01189418 62.12421685 57.90783131 54.57752571]
