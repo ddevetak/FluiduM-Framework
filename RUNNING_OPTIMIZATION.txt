@@ -14,6 +14,7 @@
 
 
 4.) Set the working folder at line 10: WORKING_FOLDER = "...."
+    in the optimization_multiplicity.py macro
      
      
 5.) RUN:
