@@ -17,7 +17,7 @@
     in the optimization_multiplicity.py macro
      
      
-5.) RUN:
+5.) "cd optimization_5TeV" and then RUN:
  
     first command:  nohup python -u optimization_multiplicity.py > RUN_FILE.out &            
     second command: disown
