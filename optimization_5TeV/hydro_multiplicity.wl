@@ -90,7 +90,6 @@ graph = StringJoin["python2 ", WORKINGFOLDER, "/make_graph.py "];
 
 GraphTotalScript = StringJoin[graph," ",     workingFolder, " ",  centBins, " ", MultTotalFile, " -b"];
 
-Print["graph command = ", GraphTotalScript];
 
 GraphPionScript = StringJoin[graph," ",     workingFolder, " ",  centBins, " ", MultPionFile, " -b"];
 GraphKaonScript = StringJoin[graph," ",     workingFolder, " ",  centBins, " ", MultKaonFile, " -b"];
