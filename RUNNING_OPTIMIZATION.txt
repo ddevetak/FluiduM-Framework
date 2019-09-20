@@ -23,8 +23,8 @@
     first command:  nohup python -u optimization_multiplicity.py > RUN_FILE.out &            
     second command: disown
     
-    *********** The commands put the process in the background so one can disconnect from the server 
-    *********** Output is in File RUN_FILE.out
+    *****comment****** The commands put the process in the background so one can disconnect from the server 
+                       output is in File RUN_FILE.out ************
     
     
     
