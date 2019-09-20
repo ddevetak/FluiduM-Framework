@@ -16,8 +16,9 @@
 4.) Set the working folder at line 10: WORKING_FOLDER = "...."
     in the optimization_multiplicity.py macro
      
+5.) cd optimization_5TeV. and then make a folder "mkdir mul_output_folder".  (this is where the hydro data is stored)
      
-5.) "cd optimization_5TeV" and then RUN:
+6.) Now we can RUN:
  
     first command:  nohup python -u optimization_multiplicity.py > RUN_FILE.out &            
     second command: disown
