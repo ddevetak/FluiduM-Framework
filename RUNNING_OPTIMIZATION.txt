@@ -13,10 +13,17 @@
 3.) Install the package:  pip install rbfopt
 
 
-4.) Set the working folder at line 10: WORKING_FOLDER = "...."
-    in the optimization_multiplicity.py macro
+4.) In the optimization_multiplicity.py macro set the working folder at line 10: 
+    WORKING_FOLDER = "...." where the folder "optimization_5TeV" is;
+    
      
-5.) cd optimization_5TeV. and then make a folder "mkdir mul_output_folder".  (this is where the hydro data is stored)
+5.) Go in folder optimization_5TeV: 
+    cd optimization_5TeV
+    make a folder "mkdir mul_output_folder".  (this is where the hydro data is stored)
+    
+6.) In macro hydro_multiplicity.wl set the full working folder; 
+      L5 In my case: WORKINGFOLDER = "/lustre/nyx/alice/users/ddevetak/ProbeRun/optimization_5TeV"
+      L7 FluiduM in my case: /lustre/nyx/alice/users/ddevetak/ProbeRun/FluiduM-newResList
      
 6.) Now we can RUN:
  
