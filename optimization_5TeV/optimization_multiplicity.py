@@ -18,7 +18,7 @@ class AliceData:
 
 class HydroData:
 
-  HydroMultPerCent = WORKING_FOLDER  + "/optimization_5TeV/output_folder/totalMult.json"
+  HydroMultPerCent = WORKING_FOLDER  + "/optimization_5TeV/mul_output_folder/totalMult.json"
 
 
 #############################
