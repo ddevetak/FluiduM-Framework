@@ -1,0 +1,23 @@
+###############################################################
+# INSTRUCTIONS FOR RUNNING OPTIMIZATION ALGORITHM
+###############################################################
+
+
+1.) Any machine on kronos is acceptable
+       
+       
+2.) Download Package optimization_5TeV:       
+       command: svn checkout https://github.com/ddevetak/FluiduM-Framework/trunk/optimization_5TeV
+       
+       
+       
+3.) Install the package:  pip install rbfopt
+     
+     
+4.) RUN:
+ 
+    first command:  nohup python -u optimization_multiplicity.py > RUN_FILE.out &            
+    second command: disown
+    
+    *********** The commands put the process in the background so one can disconnect from the server 
+    *********** Output is in File RUN_FILE.out
