@@ -11,8 +11,8 @@ WORKING_FOLDER = "/lustre/nyx/alice/users/ddevetak/ProbeRun"
 
 class AliceData:
 
-  multPerCent = "./ALICE_DATA/5TeV/json/totalChMultiplicity5centsScaled.json"
-  multPerCentError = "./ALICE_DATA/5TeV/json/fullError_mult5CentScaled.json"
+  multPerCent = "../ALICE_DATA/5TeV/json/totalChMultiplicity5centsScaled.json"
+  multPerCentError = "../ALICE_DATA/5TeV/json/fullError_mult5CentScaled.json"
   
 ############################
 
