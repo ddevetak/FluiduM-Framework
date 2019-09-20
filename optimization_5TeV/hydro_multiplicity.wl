@@ -2,9 +2,9 @@
 #
 #
 
-WORKINGFOLDER = "/lustre/nyx/alice/users/ddevetak/ProbeRun"
+WORKINGFOLDER = "/lustre/nyx/alice/users/ddevetak/ProbeRun/optimization_5TeV"
 
-SetDirectory[StringJoin[WORKINGFOLDER, "/FluiduM-newResList", "/Package"]]
+SetDirectory[StringJoin["/lustre/nyx/alice/users/ddevetak/ProbeRun/FluiduM-newResList", "/Package"]]
 <<FluiduM`
 Off[FindRoot::lstol];
 
@@ -46,8 +46,8 @@ spectraValues = RunFullHydro[entropy05, entropy510, entropy1020, entropy2030, en
 (***** MACROS *****)
 (*****************************************************************************************)
 
-workingFolder = WORKINGFOLDER + "/mul_output_folder/"; 
-centBins = "cents.json"; 
+workingFolder = StringJoin[WORKINGFOLDER, "/mul_output_folder/"]; 
+centBins = StringJoin[WORKINGFOLDER, "/cents.json"]; 
 
 MultTotalFile = StringJoin[workingFolder, "totalMult.json"];
 
@@ -86,9 +86,11 @@ Export[PtProtonFile, ProtonMeanPT];
 (***************Do Scripts*************)
 
 
-graph = "python2 make_graph.py "
+graph = StringJoin["python2 ", WORKINGFOLDER, "/make_graph.py "];
 
 GraphTotalScript = StringJoin[graph," ",     workingFolder, " ",  centBins, " ", MultTotalFile, " -b"];
+
+Print["graph command = ", GraphTotalScript];
 
 GraphPionScript = StringJoin[graph," ",     workingFolder, " ",  centBins, " ", MultPionFile, " -b"];
 GraphKaonScript = StringJoin[graph," ",     workingFolder, " ",  centBins, " ", MultKaonFile, " -b"];
