@@ -3,21 +3,34 @@
 ###############################################################
 
 
-1.) Any machine on kronos is acceptable
+1.) Any machine on kronos is fine
        
        
 2.) Download Package optimization_5TeV:       
        command: svn checkout https://github.com/ddevetak/FluiduM-Framework/trunk/optimization_5TeV
        
        
-       
 3.) Install the package:  pip install rbfopt
+
+
+4.) Set the working folder at line 10: WORKING_FOLDER = "...."
+    in the optimization_multiplicity.py macro
      
+5.) cd optimization_5TeV. and then make a folder "mkdir mul_output_folder".  (this is where the hydro data is stored)
      
-4.) RUN:
+6.) Now we can RUN:
  
     first command:  nohup python -u optimization_multiplicity.py > RUN_FILE.out &            
     second command: disown
     
-    *********** The commands put the process in the background so one can disconnect from the server 
-    *********** Output is in File RUN_FILE.out
+    *****comment****** The commands put the process in the background so one can disconnect from the server 
+                       output is in File RUN_FILE.out ************
+    
+    
+    
+    
+6.)  Settings for the OA happens on:
+
+     L70: (5, [30, 30, 30, 30, 30], [90, 90, 90, 90, 90]) means five parameters all in the range [30,90]
+  
+     L71: Number of iterations set to 100
