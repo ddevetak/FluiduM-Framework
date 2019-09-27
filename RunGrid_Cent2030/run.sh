@@ -10,4 +10,4 @@ for filename in $dir/job-*.sh; do
      source $filename
 done
 
-cd ../..
+cd ../
