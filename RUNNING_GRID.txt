@@ -19,7 +19,7 @@
      
      
 4.) In main macro "RunGrid_Cent05/HYDRO.wl" set your working folder (where you downloaded) at L7 
-    and in macro "RunGrid_Cent05/" set your working folder at L28
+    and in macro "makeJobs_alice.py" set your working folder at L28
     
     
     
