@@ -26,12 +26,12 @@ def main():
    ###############################
    # SET PATHS and load HYDRO DATA
    
-   WORKING_FOLDER_PATH = "/lustre/nyx/alice/users/ddevetak/FluiduM/ALICE/TRENTO/parralel_batch/macro_batch/RUN3_GRID10/interpolation"
-   GRID_DATA_PATH = "/lustre/nyx/alice/users/ddevetak/FluiduM/ALICE/TRENTO/parralel_batch/0-5/JOBS_GRID10_RUN3"
-   ALICE_DATA_PATH = "/lustre/nyx/alice/users/ddevetak/FluiduM/ALICE/ALICE_DATA/0-5"
-   MACROS_PATH = "/lustre/nyx/alice/users/ddevetak/FluiduM/ALICE/TRENTO/parralel_batch/macro_batch/RUN3_GRID10/interpolation/MACROS"
+   WORKING_FOLDER_PATH = "/lustre/nyx/alice/users/ddevetak/ProbeRun/RunGrid_Cent05/interpolation"
+   GRID_DATA_PATH = "/lustre/nyx/alice/users/ddevetak/ProbeRun/RunGrid_Cent05/JOBS_05"
+   ALICE_DATA_PATH = "/lustre/nyx/alice/users/ddevetak/ProbeRun/ALICE_DATA/0-5"
+   MACROS_PATH = "/lustre/nyx/alice/users/ddevetak/ProbeRun/RunGrid_Cent05/interpolation/MACROS"
 
-   PT = "/lustre/nyx/alice/users/ddevetak/FluiduM/ALICE/ALICE_DATA/fullPtRange.json"
+   PT = "/lustre/nyx/alice/users/ddevetak/ProbeRun/ALICE_DATA/fullPtRange.json"
 
    workFolderPion =    WORKING_FOLDER_PATH + "/JOBS/" + jobFolder + "/pion/" 
    workFolderKaon =    WORKING_FOLDER_PATH + "/JOBS/" + jobFolder + "/kaon/" 

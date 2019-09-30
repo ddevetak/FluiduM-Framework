@@ -54,7 +54,7 @@ for i in range(1, CorrectedNumberOfJobs+1):
 #SBATCH --time=0-1:60:00
 
 # Working directory on shared storage
-#SBATCH -D /lustre/nyx/alice/users/ddevetak/FluiduM/ALICE/TRENTO/parralel_batch/macro_batch/RUN3_GRID10/interpolation/JOBS/%s
+#SBATCH -D /lustre/nyx/alice/users/ddevetak/ProbeRun/RunGrid_Cent05/interpolation/JOBS/%s
 
 # Standard and error output in different files
 #SBATCH -o %s_%s.out.log
