@@ -4,10 +4,10 @@
 
 LaunchKernels[10]
 
-WORKINGFOLDER = "/lustre/nyx/alice/users/ddevetak/ProbeRun/"
+WORKINGFOLDER = StringDelete[Directory[], "/JOBS"]
 
-dataC = Import[StringJoin[WORKINGFOLDER, "RunGrid_Cent05/grid_10bins_27_08.dat"]]
-SetDirectory[StringJoin[WORKINGFOLDER, "FluiduM-newResList", "/Package"]]
+dataC = Import[StringJoin[WORKINGFOLDER, "/grid_10bins_27_08.dat"]]
+SetDirectory[StringJoin[WORKINGFOLDER, "/FluiduM-newResList", "/Package"]]
 
 <<FluiduM`
 Off[FindRoot::lstol];
@@ -52,7 +52,7 @@ particleFolders = {"/pion/", "/kaon/", "/proton/", "/lambda/", "/xi/", "/omega/"
 
 (* 1: pionPlus, 2: kaonPlus, 3: protonPlus, 4: lambdaZero, 5: xiMinus, 6: omegaMinus *)
 
-StoringFileFolder = Table[StringJoin[WORKINGFOLDER, "RunGrid_Cent05/JOBS/", JobFolder, particleFolders[[i]]],{i,3}];
+StoringFileFolder = Table[StringJoin[WORKINGFOLDER, "/JOBS/", JobFolder, particleFolders[[i]]],{i,3}];
 
 
 outputJsonHydro =     Table[StringJoin[StoringFileFolder[[i]], "spectra_", ToString[comb], ".json"], {i,3}, {comb, LineIndex1, LineIndex2} ];
