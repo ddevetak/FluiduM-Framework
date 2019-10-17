@@ -7,7 +7,7 @@ LaunchKernels[10]
 WORKINGFOLDER = StringDelete[Directory[], "/JOBS"]
 
 dataC = Import[StringJoin[WORKINGFOLDER, "/grid_10bins_27_08.dat"]]
-SetDirectory[StringJoin[WORKINGFOLDER, "/FluiduM-newResList", "/Package"]]
+SetDirectory[StringJoin[StringDelete[WORKINGFOLDER, "/RunGrid-Cent05"], "/FluiduM-newResList", "/Package"]]
 
 <<FluiduM`
 Off[FindRoot::lstol];
