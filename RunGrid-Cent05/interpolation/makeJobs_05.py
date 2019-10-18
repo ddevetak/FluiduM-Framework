@@ -33,6 +33,7 @@ except:
 
 CONF = json.load(open("Configure.json", "r"))
 WORKING_FOLDER = CONF["workingFolder"]
+SOURCE_ROOT = CONF["sourceRoot"]
 JobsFolder = "JOBS"
 
 
@@ -68,12 +69,12 @@ for i in range(1, CorrectedNumberOfJobs+1):
 #SBATCH -o %s_%s.out.log
 #SBATCH -e %s_%s.err.log
 
-source /lustre/nyx/alice/users/ddevetak/root6/bin/thisroot.sh
+%s
 module load /cvmfs/it.gsi.de/modulefiles/compiler/gcc/6.3.0
 time python do_macros_05.py %s %s '%s' 
 
 
-""" % (WORKING_FOLDER, job_folder, j, N, j, N, min_index, max_index, job_folder)
+""" % (WORKING_FOLDER, job_folder, j, N, j, N, SOURCE_ROOT, min_index, max_index, job_folder)
 
     )
 
