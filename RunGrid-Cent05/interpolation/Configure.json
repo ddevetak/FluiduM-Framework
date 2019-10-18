@@ -1,6 +1,6 @@
 {
-  "workingFolder": "/lustre/nyx/alice/users/ddevetak/ProbeRun/RunGrid-Cent05",
-  "aliceFolder": "/lustre/nyx/alice/users/ddevetak/ProbeRun/ALICE-DATA",
+  "workingFolder": "/lustre/nyx/alice/users/ddevetak/Probe/RunGrid-Cent05",
+  "aliceFolder": "/lustre/nyx/alice/users/ddevetak/Probe/ALICE-DATA",
   "sourceRoot": "source /lustre/nyx/alice/users/ddevetak/root6/bin/thisroot.sh",
   "numberOfConf":  50,
   "numberOfJobs":  10
