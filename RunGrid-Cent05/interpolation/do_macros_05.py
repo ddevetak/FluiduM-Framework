@@ -44,9 +44,9 @@ def main():
    ###############################
    # load Alice DATA 
 
-   PionAlicePT =   ALICE_DATA_PATH + "/0-5/pion/pt_pi0139plu.json"
-   KaonAlicePT =   ALICE_DATA_PATH + "/0-5/kaon/pt_Ka0492plu.json"
-   ProtonAlicePT = ALICE_DATA_PATH + "/0-5/proton/pt_pr0938plu.json"
+   PionAlicePT =   ALICE_DATA_PATH + "/pion/pt_pi0139plu.json"
+   KaonAlicePT =   ALICE_DATA_PATH + "/kaon/pt_Ka0492plu.json"
+   ProtonAlicePT = ALICE_DATA_PATH + "/proton/pt_pr0938plu.json"
 
    ###############################
    # Sort
@@ -62,10 +62,10 @@ def main():
    ################################
    # MACROS commands
 
-   graph =       "python2 " + WORKING_FOLDER + "/interpolation/MACROS/graph/make_graph.py "
-   fit =         "python2 " + WORKING_FOLDER + "/interpolation/MACROS/fit/make_fit.py "
-   chi =         "python2 " + WORKING_FOLDER + "/interpolation/MACROS/chi/make_chi_square_batch_05.py " + WORKING_FOLDER  + " "
-   writeToTree = "python2 " + WORKING_FOLDER + "/interpolation/MACROS/chi/write_to_tree_05.py " + WORKING_FOLDER + "/interpolation/JOBS/ " + jobFolder
+   graph =       "python " + WORKING_FOLDER + "/interpolation/MACROS/graph/make_graph.py "
+   fit =         "python " + WORKING_FOLDER + "/interpolation/MACROS/fit/make_fit.py "
+   chi =         "python " + WORKING_FOLDER + "/interpolation/MACROS/chi/make_chi_square_batch_05.py " + WORKING_FOLDER  + " "
+   writeToTree = "python " + WORKING_FOLDER + "/interpolation/MACROS/chi/write_to_tree_05.py " + WORKING_FOLDER + "/interpolation/JOBS/ " + jobFolder
 
    HaddPion =   "hadd " + workFolderPion +   "full_spectra.root " + workFolderPion   + "graph_spectra_*" 
    HaddKaon =   "hadd " + workFolderKaon +   "full_spectra.root " + workFolderKaon   + "graph_spectra_*" 
