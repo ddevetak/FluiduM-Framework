@@ -70,6 +70,7 @@ for i in range(1, CorrectedNumberOfJobs+1):
 #SBATCH -e %s_%s.err.log
 
 %s
+module use /cvmfs/it.gsi.de/modulefiles/
 module load /cvmfs/it.gsi.de/modulefiles/compiler/gcc/6.3.0
 time python do_macros_05.py %s %s '%s' 
 
