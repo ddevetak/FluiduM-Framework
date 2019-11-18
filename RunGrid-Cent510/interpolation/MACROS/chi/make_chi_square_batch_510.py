@@ -64,8 +64,8 @@ def main():
 
    if which_particle == 1:
 
-      Data = json.load(open(aliceFolder + "/0-5/pion/pi0139plu.json", "r"))
-      DataError = json.load(open(aliceFolder + "/0-5/pion/fullError.json", "r"))
+      Data = json.load(open(aliceFolder + "/pion/pi0139plu.json", "r"))
+      DataError = json.load(open(aliceFolder + "/pion/fullError.json", "r"))
 
       HydroError =   list(map(lambda x: x*PERCENT, spectraList))
       tempFullError = zip( map(lambda x: x*x, HydroError), map(lambda x: x*x, DataError) )
@@ -73,8 +73,8 @@ def main():
 
    if which_particle == 2:
 
-      Data = json.load(open(aliceFolder + "/0-5/kaon/Ka0492plu.json", "r"))
-      DataError = json.load(open(aliceFolder + "/0-5/kaon/fullError.json", "r"))
+      Data = json.load(open(aliceFolder + "/kaon/Ka0492plu.json", "r"))
+      DataError = json.load(open(aliceFolder + "/kaon/fullError.json", "r"))
 
       HydroError =   list(map(lambda x: x*PERCENT, spectraList))
       tempFullError = zip( map(lambda x: x*x, HydroError), map(lambda x: x*x, DataError) )
@@ -82,8 +82,8 @@ def main():
 
    if which_particle == 3:
 
-      Data = json.load(open(aliceFolder + "/0-5/proton/pr0938plu.json", "r"))
-      DataError = json.load(open(aliceFolder + "/0-5/proton/fullError.json", "r"))
+      Data = json.load(open(aliceFolder + "/proton/pr0938plu.json", "r"))
+      DataError = json.load(open(aliceFolder + "/proton/fullError.json", "r"))
 
       HydroError =   list(map(lambda x: x*PERCENT, spectraList))
       tempFullError = zip( map(lambda x: x*x, HydroError), map(lambda x: x*x, DataError) )

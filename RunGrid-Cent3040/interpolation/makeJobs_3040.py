@@ -72,7 +72,7 @@ for i in range(1, CorrectedNumberOfJobs+1):
 %s
 module use /cvmfs/it.gsi.de/modulefiles/
 module load /cvmfs/it.gsi.de/modulefiles/compiler/gcc/6.3.0
-time python do_macros_510.py %s %s '%s' 
+time python do_macros_3040.py %s %s '%s' 
 
 
 """ % (WORKING_FOLDER, job_folder, j, N, j, N, SOURCE_ROOT, min_index, max_index, job_folder)
@@ -91,7 +91,7 @@ cd %s
 mkdir -p pion
 mkdir -p kaon
 mkdir -p proton
-scp ../../do_macros_510.py ./
+scp ../../do_macros_3040.py ./
 scp ../../Configure.json ./
 cd ..
 
