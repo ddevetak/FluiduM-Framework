@@ -49,7 +49,7 @@ def main():
    ProtonAlicePT = ALICE_DATA_PATH + "/proton/pt_pr0938plu.json"
 
    ###############################
-   # Sort
+   # Sort ascending 1,2,3...
 
    SpectraPathPion.sort(key=sortKeyFunc)
    SpectraPathKaon.sort(key=sortKeyFunc)
@@ -67,13 +67,6 @@ def main():
    chi =         "python " + WORKING_FOLDER + "/interpolation/MACROS/chi/make_chi_square_batch_510.py " + WORKING_FOLDER  + " "
    writeToTree = "python " + WORKING_FOLDER + "/interpolation/MACROS/chi/write_to_tree_510.py " + WORKING_FOLDER + "/interpolation/JOBS/ " + jobFolder
 
-   HaddPion =   "hadd " + workFolderPion +   "full_spectra.root " + workFolderPion   + "graph_spectra_*" 
-   HaddKaon =   "hadd " + workFolderKaon +   "full_spectra.root " + workFolderKaon   + "graph_spectra_*" 
-   HaddProton = "hadd " + workFolderProton + "full_spectra.root " + workFolderProton   + "graph_spectra_*" 
-
-   rmPion =   "rm " + workFolderPion   + "graph_spectra_*" 
-   rmKaon =   "rm " + workFolderKaon   + "graph_spectra_*" 
-   rmProton = "rm " + workFolderProton + "graph_spectra_*" 
 
    for iFile in FILES1:
 
@@ -89,8 +82,6 @@ def main():
        os.system(commandCHI)     
 
    os.system(writeToTree + " pion")     
-   os.system(HaddPion)     
-   os.system(rmPion)     
      
    for iFile in FILES2:
 
@@ -106,9 +97,6 @@ def main():
        os.system(commandCHI)     
 
    os.system(writeToTree + " kaon")     
-   os.system(HaddKaon)     
-   os.system(rmKaon)     
-     
      
    for iFile in FILES3:
 
@@ -124,8 +112,6 @@ def main():
        os.system(commandCHI)     
 
    os.system(writeToTree + " proton")     
-   os.system(HaddProton)     
-   os.system(rmProton)     
      
 
 main()

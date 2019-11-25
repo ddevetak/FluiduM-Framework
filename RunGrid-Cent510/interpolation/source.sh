@@ -21,4 +21,4 @@ for filename in $dir/job-*.sh; do
      sbatch $filename
 done
 
-cd ../..
+cd ../

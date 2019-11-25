@@ -44,8 +44,11 @@ if not os.path.exists(JobsFolder):
 Intervals = list(split( range(1, numberOfFiles+1), numberOfJobs))
 CorrectedNumberOfJobs = len(Intervals)
 
+min_index, max_index = '', ''
+
 for i in range(1, CorrectedNumberOfJobs+1):
 
+   #arguments = {'wf': WORKING_FOLDER, 'jb': JobsFolder, 'minI': min_index, 'maxI': max_index, 'sr': SOURCE_ROOT}
    job_folder='job'+'-'+str(i)    
    j = '%j'
    N = '%N'
@@ -63,19 +66,24 @@ for i in range(1, CorrectedNumberOfJobs+1):
 #SBATCH --time=0-0:20:00
 
 # Working directory on shared storage
-#SBATCH -D %s/interpolation/JOBS/%s
+#SBATCH -D %(wf)s/interpolation/JOBS/%(jb)s
 
 # Standard and error output in different files
-#SBATCH -o %s_%s.out.log
-#SBATCH -e %s_%s.err.log
+#SBATCH -o %(j)s_%(N)s.out.log
+#SBATCH -e %(j)s_%(N)s.err.log
 
-%s
+%(sr)s
 module use /cvmfs/it.gsi.de/modulefiles/
 module load /cvmfs/it.gsi.de/modulefiles/compiler/gcc/6.3.0
-time python do_macros_1020.py %s %s '%s' 
+time python do_macros_1020.py %(minI)s %(maxI)s '%(jb)s' 
+
+rm %(wf)s/interpolation/JOBS/%(jb)s/*/{eval_fit_graph_spectra_*,fit_graph_spectra_*,graph_spectra_*,chi_*}
 
 
-""" % (WORKING_FOLDER, job_folder, j, N, j, N, SOURCE_ROOT, min_index, max_index, job_folder)
+""" % {'wf': WORKING_FOLDER, 'jb': job_folder , 'minI': min_index, 'maxI': max_index, 'sr': SOURCE_ROOT, 'j': j, 'N': N} 
+
+#(WORKING_FOLDER, job_folder, j, N, j, N, SOURCE_ROOT, min_index, max_index, job_folder, WORKING_FOLDER, job_folder, WORKING_FOLDER, WORKING_FOLDER, 
+#WORKING_FOLDER, WORKING_FOLDER, )
 
     )
 
@@ -99,3 +107,20 @@ cd ..
 
     )
 
+
+open(path.join(JobsFolder, "merge_root_files.sh"), "w").write(
+
+"""#!/bin/bash
+
+ls -1v %(wf)s/interpolation/JOBS/job-*/pion/tree* > listPion.txt
+ls -1v %(wf)s/interpolation/JOBS/job-*/kaon/tree* > listKaon.txt
+ls -1v %(wf)s/interpolation/JOBS/job-*/proton/tree* > listProton.txt
+
+hadd PionFull.root @listPion.txt
+hadd KaonFull.root @listKaon.txt
+hadd ProtonFull.root @listProton.txt
+
+
+""" % {'wf': WORKING_FOLDER}
+
+)
