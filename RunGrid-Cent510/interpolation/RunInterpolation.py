@@ -7,7 +7,7 @@ numberOfFiles =  str(CONF["numberOfConf"])
 numberOfJobs =   str(CONF["numberOfJobs"])
 workingFolder =  str(CONF["workingFolder"])
 
-command = "python makeJobs_05.py " + numberOfFiles + " " + numberOfJobs
+command = "python makeJobs_510.py " + numberOfFiles + " " + numberOfJobs
 clean1 = "rm " + workingFolder + "/interpolation/JOBS/pre-job-*"
 clean2 = "rm " + workingFolder + "/interpolation/JOBS/job-*.sh"
 
