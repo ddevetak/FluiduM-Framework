@@ -97,7 +97,7 @@ def main():
    if which_particle==2: CurrentChi2 = DirectChi(Data, FullError, spectraList, 0, 36)  # KAON      max = 36 ; BW = 0  - 20 +1
    if which_particle==3: CurrentChi2 = DirectChi(Data, FullError, spectraList, 0, 34)  # PROTON    max = 34 ; BW = 0  - 33 +1
  
-   chiPlusComb = {Which_combination: [CurrentChi2[0], CurrentChi2[1], DICT_COMB[Which_combination], spectraList] }
+   chiPlusComb = {Which_combination: [CurrentChi2[0], CurrentChi2[1], DICT_COMB[Which_combination]] }
    
    #print WorkFolder + "chi_" + str(Which_combination) + ".yml"  
    WriteYaml = open( WorkFolder + "chi_" + str(Which_combination) + ".yml", "w")

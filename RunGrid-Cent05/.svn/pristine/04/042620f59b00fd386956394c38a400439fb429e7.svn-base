@@ -1,5 +1,6 @@
 #!/bin/bash
 
+scp HYDRO.wl JOBS
 cd JOBS
 dir=$(pwd)
 
@@ -12,13 +13,12 @@ done
 
 cd ..
 
-
 cd JOBS
 dir=$PWD
 
 for filename in $dir/job-*.sh; do
 
-     sbatch $filename
+     source $filename
 done
 
 cd ../

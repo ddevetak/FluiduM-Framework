@@ -107,20 +107,3 @@ cd ..
 
     )
 
-
-open(path.join(JobsFolder, "merge_root_files.sh"), "w").write(
-
-"""#!/bin/bash
-
-ls -1v %(wf)s/interpolation/JOBS/job-*/pion/tree* > listPion.txt
-ls -1v %(wf)s/interpolation/JOBS/job-*/kaon/tree* > listKaon.txt
-ls -1v %(wf)s/interpolation/JOBS/job-*/proton/tree* > listProton.txt
-
-hadd PionFull.root @listPion.txt
-hadd KaonFull.root @listKaon.txt
-hadd ProtonFull.root @listProton.txt
-
-
-""" % {'wf': WORKING_FOLDER}
-
-)
