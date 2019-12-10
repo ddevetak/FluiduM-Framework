@@ -1,7 +1,0 @@
-{
-  "workingFolder": "/lustre/nyx/alice/users/ddevetak/Probe/RunGrid-Cent05",
-  "aliceFolder": "/lustre/nyx/alice/users/ddevetak/Probe/ALICE-DATA/0-5",
-  "numberOfConf":  100,
-  "numberOfJobs":  5
-
-}
