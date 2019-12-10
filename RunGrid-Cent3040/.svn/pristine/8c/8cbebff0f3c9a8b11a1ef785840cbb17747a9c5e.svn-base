@@ -1,0 +1,8 @@
+{
+  "workingFolder": "/lustre/nyx/alice/users/ddevetak/Probe/RunGrid-Cent3040",
+  "aliceFolder": "/lustre/nyx/alice/users/ddevetak/Probe/ALICE-DATA/30-40",
+  "sourceRoot": "source /lustre/nyx/alice/users/ddevetak/root6/bin/thisroot.sh",
+  "numberOfConf":  30,
+  "numberOfJobs":  5
+
+}

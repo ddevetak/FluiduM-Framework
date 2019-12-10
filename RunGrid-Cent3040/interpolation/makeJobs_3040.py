@@ -63,7 +63,7 @@ for i in range(1, CorrectedNumberOfJobs+1):
 #SBATCH -J doMacros
 
 # Run time limit
-#SBATCH --time=0-0:20:00
+#SBATCH --time=0-1:60:00
 
 # Working directory on shared storage
 #SBATCH -D %(wf)s/interpolation/JOBS/%(jb)s
@@ -82,8 +82,6 @@ rm %(wf)s/interpolation/JOBS/%(jb)s/*/{eval_fit_graph_spectra_*,fit_graph_spectr
 
 """ % {'wf': WORKING_FOLDER, 'jb': job_folder , 'minI': min_index, 'maxI': max_index, 'sr': SOURCE_ROOT, 'j': j, 'N': N} 
 
-#(WORKING_FOLDER, job_folder, j, N, j, N, SOURCE_ROOT, min_index, max_index, job_folder, WORKING_FOLDER, job_folder, WORKING_FOLDER, WORKING_FOLDER, 
-#WORKING_FOLDER, WORKING_FOLDER, )
 
     )
 

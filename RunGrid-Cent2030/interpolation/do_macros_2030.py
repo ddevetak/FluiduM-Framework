@@ -75,7 +75,7 @@ def main():
 
        commandGraph =    graph + workFolderPion + " " + PT + " " + iFile + " -b"   # the iFile gives the index in output
        commandFit =      fit + workFolderPion + " " + GraphFile + " " + PionAlicePT + " -b"
-       commandCHI =      chi + workFolderPion + " " + str(1) + " " + EvalGraphFile + " -b"    # 1 = PION
+       commandCHI =      chi + workFolderPion + " " + str(1) + " " + EvalGraphFile + " " + iFile + " -b"    # 1 = PION
        
        os.system(commandGraph)     
        os.system(commandFit)     
@@ -90,7 +90,7 @@ def main():
 
        commandGraph =    graph + workFolderKaon + " " + PT + " " + iFile + " -b"
        commandFit =      fit + workFolderKaon + " " + GraphFile + " " + KaonAlicePT + " -b"
-       commandCHI =      chi + workFolderKaon + " " + str(2) + " " + EvalGraphFile + " -b"    # 1 = PION
+       commandCHI =      chi + workFolderKaon + " " + str(2) + " " + EvalGraphFile + " " + iFile + " -b"    # 1 = PION
        
        os.system(commandGraph)     
        os.system(commandFit)     
@@ -105,7 +105,7 @@ def main():
 
        commandGraph =    graph + workFolderProton + " " + PT + " " + iFile + " -b"
        commandFit =      fit + workFolderProton + " " + GraphFile + " " + ProtonAlicePT + " -b"
-       commandCHI =      chi + workFolderProton + " " + str(3) + " " + EvalGraphFile + " -b"    # 1 = PION
+       commandCHI =      chi + workFolderProton + " " + str(3) + " " + EvalGraphFile + " " + iFile + " -b"    # 1 = PION
        
        os.system(commandGraph)     
        os.system(commandFit)     

@@ -2,7 +2,7 @@
 #
 #
 
-LaunchKernels[10]
+LaunchKernels[9]
 
 WORKINGFOLDER = StringDelete[Directory[], "/JOBS"]
 
