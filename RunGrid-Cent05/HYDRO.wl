@@ -20,12 +20,16 @@ JobFolder = ToString[$ScriptCommandLine[[3]]]
 
 (********** RUN HYDRO looping dataC COMBINATIONS ************)
 
+rprofile = Import["./InitialCondition/LHCPbPb2760GeV/WeightFunction.txt", "Table"][[All, 1]];
+wprofile = Transpose[Import["./InitialCondition/LHCPbPb2760GeV/WeightFunction.txt", "Table"][[All, 2 ;; All]]];
+averageMultiplicity = Flatten[Import["./InitialCondition/LHCPbPb2760GeV/AverageMultiplicity.txt", "Table"]];
+
 Print["Combinations for lines...", LineIndex1, " ", LineIndex2]
 
 RunHydroUntilFreezeOut[entropyXtau0_, etas_, bulk_, tch_, tau0_]:=Module[{myGrid,myFluidProperties,initialTrento,HydroSolution,myFluidFieldsOnFreezeOutSurface},
         myGrid = discretizationPoints[1/10, 50, 128];
         myFluidProperties =  setFluidPropertiesQCDParametrization["ShearViscosityOverEntropy" -> etas, "BulkViscosityOverEntropyAmplitude" -> bulk];
-        initialTrento = setInitialConditionsTrento[{ {0, 5} }, entropyXtau0, tau0, myFluidProperties, myGrid][[1]];
+        initialTrento = setInitialConditionsCentrality[{{0, 5}}, entropyXtau0, tau0, myFluidProperties, myGrid, rprofile, wprofile, averageMultiplicity][[1]];
         HydroSolution = evolveBackground[{tau0, 20}, myFluidProperties, myGrid, initialTrento, "showProgressIndicator" -> False];
         myFluidFieldsOnFreezeOutSurface =freezeOut[HydroSolution, 50, tch];
         Clear[HydroSolution,myGrid,initialTrento,myFluidProperties];
