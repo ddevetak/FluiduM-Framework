@@ -6,7 +6,7 @@ from scipy.optimize import differential_evolution
 from scipy.optimize import shgo
 from iminuit import Minuit
 
-dat1=np.loadtxt("./LHC-276TeV-FILES/PionKaonProton/GRID_10BINS_1020_PionKaonProton.dat")
+dat1=np.loadtxt("./GRID_05.dat")
 
 datlist=[dat1]
 
