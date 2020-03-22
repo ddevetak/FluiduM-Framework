@@ -4,7 +4,7 @@
 (*LaunchKernels[5]*)
 
 
-MainFolder = "/Users/damirdevetak/FluiduM-21-01-2020/RUN_AND_PLOT"
+MainFolder = "/Users/damirdevetak/FluiduM-21-01-2020/RUN-AND-PLOT"
 
 SetDirectory[StringJoin[MainFolder, "/FluiduM-newResList/Package"]]
 <<FluiduM`
