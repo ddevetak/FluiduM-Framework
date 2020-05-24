@@ -7,10 +7,12 @@ LaunchKernels[10]
 WORKINGFOLDER = StringDelete[Directory[], "/JOBS"]
 
 dataC = Import[StringJoin[WORKINGFOLDER, "/grid_10bins_27_08.dat"]]
-SetDirectory[StringJoin[StringDelete[WORKINGFOLDER, "/RunGrid-Cent05"], "/FluiduM-newResList", "/Package"]]
+SetDirectory[StringJoin[StringDelete[WORKINGFOLDER, "/RunGrid-Cent05"], "/fluidum2-master", "/Package"]]
 
 <<FluiduM`
 Off[FindRoot::lstol];
+
+associationKernel = Import["./Package/Spectra_Kernel/DecayKernelsAllTotalPDG16.mx"];
 
 LineIndex1 = ToExpression[$ScriptCommandLine[[1]]]  (*which lines are to be taken from combinations.txt*)
 LineIndex2 = ToExpression[$ScriptCommandLine[[2]]]  (*which lines are to be taken from combinations.txt*)
@@ -20,16 +22,13 @@ JobFolder = ToString[$ScriptCommandLine[[3]]]
 
 (********** RUN HYDRO looping dataC COMBINATIONS ************)
 
-rprofile = Import["./InitialCondition/LHCPbPb2760GeV/WeightFunction.txt", "Table"][[All, 1]];
-wprofile = Transpose[Import["./InitialCondition/LHCPbPb2760GeV/WeightFunction.txt", "Table"][[All, 2 ;; All]]];
-averageMultiplicity = Flatten[Import["./InitialCondition/LHCPbPb2760GeV/AverageMultiplicity.txt", "Table"]];
-
 Print["Combinations for lines...", LineIndex1, " ", LineIndex2]
 
 RunHydroUntilFreezeOut[entropyXtau0_, etas_, bulk_, tch_, tau0_]:=Module[{myGrid,myFluidProperties,initialTrento,HydroSolution,myFluidFieldsOnFreezeOutSurface},
+
         myGrid = discretizationPoints[1/10, 50, 128];
         myFluidProperties =  setFluidPropertiesQCDParametrization["ShearViscosityOverEntropy" -> etas, "BulkViscosityOverEntropyAmplitude" -> bulk];
-        initialTrento = setInitialConditionsCentrality[{{0, 5}}, entropyXtau0, tau0, myFluidProperties, myGrid, rprofile, wprofile, averageMultiplicity][[1]];
+        initialTrento = setInitialConditionsCentralityAllFields[{ {0, 5}   }, entropyXtau0, tau0, myFluidProperties, myGrid, "InitialConditionsAll" -> False ][[1]];
         HydroSolution = evolveBackground[{tau0, 20}, myFluidProperties, myGrid, initialTrento, "showProgressIndicator" -> False];
         myFluidFieldsOnFreezeOutSurface =freezeOut[HydroSolution, 50, tch];
         Clear[HydroSolution,myGrid,initialTrento,myFluidProperties];
@@ -43,7 +42,7 @@ Print["CONF = ", CONF]
 
 parallelPhase = ParallelMap[RunHydroUntilFreezeOut[#[[1]],#[[2]],#[[3]],#[[4]],#[[5]]]& , CONF, DistributedContexts -> {"FluiduM`", "Global`"}, Method->"CoarsestGrained"];
 myFluidProperties =  setFluidPropertiesQCDParametrization["ShearViscosityOverEntropy" -> #[[2]], "BulkViscosityOverEntropyAmplitude" -> #[[3]]]& /@ CONF;
-spectraValues = spectraResonanceDecays[particleDataset, pTList, #[[1]], #[[2]], "DissipativeCorrections" -> True] & /@ Transpose[{parallelPhase, myFluidProperties}];
+spectraValues = spectraResonanceDecaysBackground[kernels, pTList, #[[1]], #[[2]], "DissipativeCorrections" -> True] & /@ Transpose[{parallelPhase, myFluidProperties}];
 
 
 (***************** OUTPUT FILES & RUN MACROS ******************)
