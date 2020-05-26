@@ -30,7 +30,7 @@ RunHydroUntilFreezeOut[entropyXtau0_, etas_, bulk_, tch_, tau0_]:=Module[{myGrid
         myFluidProperties =  setFluidPropertiesQCDParametrization["ShearViscosityOverEntropy" -> etas, "BulkViscosityOverEntropyAmplitude" -> bulk];
         initialTrento = setInitialConditionsCentralityAllFields[{ {0, 5}   }, entropyXtau0, tau0, myFluidProperties, myGrid, "InitialConditionsAll" -> False ][[1]];
         HydroSolution = evolveBackground[{tau0, 20}, myFluidProperties, myGrid, initialTrento, "showProgressIndicator" -> False];
-        myFluidFieldsOnFreezeOutSurface =freezeOut[HydroSolution, 50, tch];
+        myFluidFieldsOnFreezeOutSurface = freezeOutBackground[HydroSolution, 50, tch];
         Clear[HydroSolution,myGrid,initialTrento,myFluidProperties];
         myFluidFieldsOnFreezeOutSurface
 ]
@@ -42,12 +42,10 @@ Print["CONF = ", CONF]
 
 parallelPhase = ParallelMap[RunHydroUntilFreezeOut[#[[1]],#[[2]],#[[3]],#[[4]],#[[5]]]& , CONF, DistributedContexts -> {"FluiduM`", "Global`"}, Method->"CoarsestGrained"];
 myFluidProperties =  setFluidPropertiesQCDParametrization["ShearViscosityOverEntropy" -> #[[2]], "BulkViscosityOverEntropyAmplitude" -> #[[3]]]& /@ CONF;
-spectraValues = spectraResonanceDecaysBackground[kernels, pTList, #[[1]], #[[2]], "DissipativeCorrections" -> True] & /@ Transpose[{parallelPhase, myFluidProperties}];
+spectraValues = spectraResonanceDecaysBackground[associationKernel, pTList, #[[1]], #[[2]], "DissipativeCorrections" -> True] & /@ Transpose[{parallelPhase, myFluidProperties}];
 
 
 (***************** OUTPUT FILES & RUN MACROS ******************)
-
-PT = WORKINGFOLDER + "ALICE_DATA/fullPtRange.json"
 
 Particles = {"pion/pi0139plu.json", "kaon/Ka0492plu.json", "proton/pr0938plu.json"}
 particleFolders = {"/pion/", "/kaon/", "/proton/", "/lambda/", "/xi/", "/omega/"}
