@@ -12,7 +12,7 @@ SetDirectory[StringJoin[StringDelete[WORKINGFOLDER, "/RunGrid-Cent05"], "/fluidu
 <<FluiduM`
 Off[FindRoot::lstol];
 
-associationKernel = Import["./Package/Spectra_Kernel/DecayKernelsAllTotalPDG16.mx"];
+associationKernel = Import["./Spectra_Kernel/DecayKernelsAllTotalPDG16.mx"];
 
 LineIndex1 = ToExpression[$ScriptCommandLine[[1]]]  (*which lines are to be taken from combinations.txt*)
 LineIndex2 = ToExpression[$ScriptCommandLine[[2]]]  (*which lines are to be taken from combinations.txt*)
